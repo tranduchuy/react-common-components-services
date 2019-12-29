@@ -1,10 +1,13 @@
 import React from 'react';
+import {Col, Row} from "react-bootstrap";
 
 const HomePage = () => {
     return (
-        <div>
-            Hello world
-        </div>
+        <Row>
+            <Col sm={12}>
+                Hello world
+            </Col>
+        </Row>
     )
 };
 
